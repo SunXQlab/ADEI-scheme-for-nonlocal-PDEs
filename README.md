@@ -22,7 +22,7 @@ g++  ADEI.cpp -o ADEI
 
 ## 🧩 Initial & Boundary Conditions
 **· Initial phenotypic distribution**    
-C1[i][j][k] = 1e8 * exp(-(x[k]-0.5)^2 / 0.1) (see initial()).  
+C1[i][j][k] = $10^{8} * \mathrm{e}^{\frac{-(x[k]-0.5)^2}{  0.1}}$ (see initial()).  
 **· Initial oxygen concentration**     
 U1[i][j] = V_u if (i,j) is a vessel point (see is_vessel_point()), otherwise 0.  
 **· Neumann (zero-flux) boundaries**   
